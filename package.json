@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server -d"
   },
   "keywords": [],
   "author": "Ryan Walsh <ryan@thehatrack.net> (https://twitter.com/_rtwalsh)",
@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-router": "^3.0.0",
+    "superagent": "^2.3.0"
   }
 }
